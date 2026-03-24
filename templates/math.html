@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>數學運算</title>
+</head>
+<body>
+    <h2>請輸入運算數值</h2>
+    <form action="/math" method="post">
+        數字 X：<input type="number" name="x" step="any" required><br><br>
+        
+        運算符：
+        <select name="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
+        </select><br><br>
+        
+        數字 Y：<input type="number" name="y" step="any" required><br><br>
+        
+        <input type="submit" value="計算">
+    </form>
+    <hr>
+    <a href="/">回首頁</a>
+</body>
+</html>
